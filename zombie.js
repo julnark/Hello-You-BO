@@ -7,7 +7,7 @@ const rl = readline.createInterface({
 
 function start_game() {
   rl.question('Wat is je naam? ', function(naam) {
-    console.log('Welkom ${naam} Je gaat een spel spelen, er is één simpele regel en dat is... Je krijgt elke ronde een input van (0,1) elke waarde doet een actie dat jou uiteindelijk tot het einde zal brengen ! Are u ready?');
+    console.log(`Welkom ${naam}... Je gaat een spel spelen, er is één simpele regel en dat is... \nJe krijgt elke ronde een input van (0,1) elke waarde doet een actie datjou uiteindelijk tot het einde zal brengen!\nAre u readyyy?!!`);
     console.log('Het is een lang moeizame dag geweest. Je komt thuis aan na een lange dagje en gaat lekker in bed liggen, je ogen beginnen langzaam dicht te klappen en langzaam val je in slaap. Je bent in slaap gevallen en je wordt wakker doordat je telefoon af gaat.');
     console.log('Je wordt wakker en je kijkt naar wat voor melding het was, het is een alarm melding, iedereen heeft het binnen gekregen. Je bent nog half aan het slapen dus je zit te denken of je verder wilt slapen of juist het bericht wilt gaan lezen, het is een lange bericht namelijk.');
     rl.question('Wat ga je doen? [0] Het bericht te negeren en verder te gaan slapen of [1] Het bericht te lezen: ', function(verder_slapen) {
